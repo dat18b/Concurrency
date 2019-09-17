@@ -16,13 +16,9 @@ public class Countdown implements Runnable {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
-
+                System.out.println("Interrupted " + e);
+                System.exit(1);
             }
         }
-    }
-
-
-    private String tellName(){
-        return name;
     }
 }

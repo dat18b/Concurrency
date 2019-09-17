@@ -1,5 +1,7 @@
 package kea;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,9 +16,20 @@ public class Main {
 
         t1.start();
         t2.start();
-        t3.start();
+        //t3.start();
 
+        Scanner scan = new Scanner(System.in);
+        String input = "";
 
+        while (true) {
+            input = scan.next();
+            if (input.equals("q")){
+                if (t1.isAlive()) {
+                    t1.interrupt();
+                }
+            }
+
+        }
         //c1.run();
         //c2.run();
         //c3.run();
