@@ -1,14 +1,13 @@
 # Concurrency
 
 
-We have been working with the following topics.
+Vi har arbejdet med følgende emner, hvilke også er dem som i skal kunne snakke om og demonstrere brugen af til jeres eksamen. 
 
-* https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
-Concurrency
-Processes and Threads
-Thread Objects
-Defining and Starting a Thread
-Pausing Execution with Sleep
-Interrupts
-Joins
-The SimpleThreads Example
+
+* [Concurrency](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html)
+* [Processes and Threads](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html)
+* [Thread Objects](https://docs.oracle.com/javase/tutorial/essential/concurrency/threads.html)
+* [Defining and Starting a Thread](https://docs.oracle.com/javase/tutorial/essential/concurrency/runthread.html)
+* [Pausing Execution with Sleep](https://docs.oracle.com/javase/tutorial/essential/concurrency/sleep.html)
+* [Interrupts](https://docs.oracle.com/javase/tutorial/essential/concurrency/interrupt.html)
+* [The SimpleThreads Example](https://docs.oracle.com/javase/tutorial/essential/concurrency/simple.html)
